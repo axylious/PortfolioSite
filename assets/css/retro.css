@@ -1,0 +1,21 @@
+/* Root Variables */
+:root {
+   --main-color: #BE8F6A;
+   --secondary-color: #F4ECC6;
+
+   --border-color: #632e1a;
+
+   --main-txt: black;
+   --secondary-txt: #222;
+
+   --theme-dot-border: #222;
+
+   --preview-bg: rgba(236, 230, 195, 0.8);
+   --preview-shadow: #668783;
+
+   --link-border: #95211F;
+
+   --btn-color: #95211F;
+}
+
+#dark {border-color: black;}

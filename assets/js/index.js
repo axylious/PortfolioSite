@@ -20,20 +20,27 @@ for(var i=0; themeDots.length>1; i++){
 function setTheme(mode, pic){
    if(mode == 'light'){
       document.getElementById('theme-style').href = 'assets/css/index.css'
+      document.getElementById('spotify').src = 'assets/images/Spotify_Icon_RGB_Black.png'
    }
 
    if(mode == 'blue'){
       document.getElementById('theme-style').href = 'assets/css/blue.css'
       document.getElementById('profile-pic').src = 'assets/images/AxelOlivas.jpg'
+      document.getElementById('spotify').src = 'assets/images/Spotify_Icon_RGB_Green.png'
+
    }
 
    if(mode == 'retro'){
       document.getElementById('theme-style').href = 'assets/css/retro.css'
+      document.getElementById('spotify').src = 'assets/images/Spotify_Icon_RGB_White.png'
+
    }
 
    if(mode == 'dark'){
       document.getElementById('theme-style').href = 'assets/css/dark.css'
       document.getElementById('profile-pic').src = 'assets/images/Axel-intro.JPEG'
+      document.getElementById('spotify').src = 'assets/images/Spotify_Icon_RGB_Green.png'
+
    }
 
    localStorage.setItem('theme', mode)

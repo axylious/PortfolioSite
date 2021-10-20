@@ -20,7 +20,6 @@ for(var i=0; themeDots.length>1; i++){
 function setTheme(mode, pic){
    if(mode == 'light'){
       document.getElementById('theme-style').href = 'assets/css/index.css'
-      // document.getElementById('profile-pic').src = 'assets/images/backdrop.jpg'
    }
 
    if(mode == 'blue'){

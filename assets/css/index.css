@@ -61,12 +61,12 @@ h5 {font-size: 1.25em;}
 h6 {font-size: 1em;}
 
 
-.s1 {
+.s1, .w1 {
    background-color: var(--main-color);
    border-bottom: 1px solid var(--border-color);
 }
 
-.s2 {
+.s2, .w2 {
    background-color: var(--secondary-color);
    border-bottom: 1px solid var(--border-color);
 }
@@ -191,12 +191,16 @@ h6 {font-size: 1em;}
 }
 
 #light {background-color: #fff;}
-#blue {background-color: #192734;}
 #retro {background-color: #BE8F6A;}
 #dark {
    background-color: #222;
    border-color: black;
 }
+#blue {
+   background-color: #192734;
+   border-color: black;
+}
+#season {background-color: #FF7518;}
 
 .right {
    grid-area: right-column;
@@ -259,7 +263,7 @@ h6 {font-size: 1em;}
    align-content: center;
 }
 
-.about {
+.about, .work-skills, .work-problems, .work-different {
    border-bottom: 1px solid var(--border-color);
    padding-bottom: 1.5em;
    margin-bottom: 1.5em;
@@ -358,6 +362,51 @@ svg {
    color: #fff;
    background: var(--btn-color);
    border: none;
+}
+/* Work Pages */
+.w1 {
+   min-width: 40%;
+}
+
+.w2 {
+   width: 100%;
+   border-left: 1px solid var(--border-color);
+}
+
+.project-link {
+   display: flex;
+   align-items: center;
+   gap: 2em;
+   cursor: default;
+}
+
+.project-link svg {
+   fill: #81818144;
+   cursor: default;
+   transition: all 150ms ease-in-out;
+}
+
+.project-link:hover svg {
+   fill: var(--link-border);
+   cursor: pointer;
+}
+
+.work-text {
+   margin: 1em 3em;
+}
+
+.work-text p{
+   width: 90%;
+   margin: 1em 0;
+}
+
+
+.work-skills ul{
+   display: flex;
+   max-width: 300px;
+   justify-content: space-between;
+   background-color: var(--preview-shadow);
+   padding: 1em 2em;
 }
 
 @media (max-width: 800px) {

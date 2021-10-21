@@ -8,12 +8,14 @@
    --main-txt: #fff;
    --secondary-txt: #eee;
 
+   --main-font: 'Creepster', monospace;
+
    --theme-dot-border: #fff;
 
    --preview-bg: rgba(68, 68, 68, 0.5);
    --preview-shadow: #111;
 
-   --link-border: #1DB954;
+   --link-border: #FF7518;
    
    --btn-color: #999999;
 }
@@ -22,3 +24,4 @@
 #dark {border-color: var(--theme-dot-border);}
 #blue {border-color: var(--theme-dot-border);}
 #submit {color: black;}
+.social-wrapper a{font-family: var(--main-font);}

@@ -366,7 +366,8 @@ svg {
    background: var(--btn-color);
    border: none;
 }
-/* Work Pages */
+
+/* Project Pages */
 .w1 {
    min-width: 40%;
 }
@@ -412,8 +413,50 @@ svg {
    padding: 1em 2em;
 }
 
+/* Design Page */
+.gallery-wrapper {
+   padding: 3em 2em;
+}
+
+.gallery-wrapper h2 {
+   border-bottom: 1px solid var(--border-color);
+   padding-bottom: 1em;
+   margin: 1em 0;
+}
+
+.gallery {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+   gap: 1em;
+}
+
+.gallery img {
+   background-size: cover;
+   width: 100%;
+   max-width: 300px;
+   background-color: var(--preview-bg);
+   border-radius: .25em;
+   cursor: pointer;
+}
+
+#lightbox {
+   position: fixed;
+   z-index: 9999;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   display: none;
+}
+
+#lightbox.active {
+   display: flex;
+   background-color: var(--preview-bg);
+   justify-content: center;
+   align-items: center;
+}
+
 @media (max-width: 48em) {
-   .intro {
+   .intro, .design {
       grid-template-columns: 1fr;
       grid-template-areas: 
       'nav'
@@ -429,6 +472,10 @@ svg {
 
    .two-column.work {flex-direction: column-reverse;}
    .work-wrapper {grid-template-columns: repeat(auto-fit, 250px);}
+
+   #lightbox img {
+      width: 80%;
+   }
 }
 
 @media (max-width: 36em) {

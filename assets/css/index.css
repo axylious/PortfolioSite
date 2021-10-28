@@ -485,6 +485,8 @@ svg {
       margin-bottom: 3em;
    }
 
+   .thumbnail p {font-size: 3.5em;}
+
    .two-column.work {flex-direction: column-reverse;}
    .work-wrapper {grid-template-columns: repeat(auto-fit, 250px);}
 
@@ -495,7 +497,14 @@ svg {
 
 @media (max-width: 36em) {
    .large#nav {display: none;}
-   .small#nav {display: inline-block;}
+   .small#nav {
+      display: inline-block;
+      font-size: .85em;
+   }
+   .browser-dot {
+      height: 10px;
+      width: 10px;
+   }
 
    #profile-pic {
       height: 200px;

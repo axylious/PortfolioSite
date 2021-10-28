@@ -38,6 +38,7 @@
 h1, h2, h3, h4, h5, h6, strong {
    color: var(--main-txt);
    font-family: var(--main-font);
+   cursor: default;
 }
 
 p, li, span, label, input, textarea {
@@ -315,10 +316,19 @@ svg {
 }
 
 .thumbnail {
-   display: block;
+   display: flex;
    width: 100%;
    height: 180px;
    object-fit: cover;
+   justify-content: center;
+   align-items: center;
+}
+
+.thumbnail p {
+   font-size: 5em;
+   font-weight: bold;
+   color: var(--link-border);
+   font-family: var(--main-font);
 }
 
 .work-preview {
@@ -369,7 +379,7 @@ svg {
 
 /* Project Pages */
 .w1 {
-   min-width: 40%;
+   max-width: 50%;
 }
 
 .w2 {
@@ -402,6 +412,11 @@ svg {
 .work-text p{
    width: 90%;
    margin: 1em 0;
+}
+
+.work-pics img {
+   width: 100%;
+   background-position: cover;
 }
 
 

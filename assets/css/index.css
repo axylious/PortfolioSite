@@ -488,6 +488,7 @@ svg {
    .thumbnail p {font-size: 3.5em;}
 
    .two-column.work {flex-direction: column-reverse;}
+   .two-column img {width: 100vw;}
    .work-wrapper {grid-template-columns: repeat(auto-fit, 250px);}
 
    #lightbox img {

@@ -1,3 +1,27 @@
+<?php
+   $msg_sent = false;
+   if(isset($_POST['email']) && $_POST['email'] != ''){
+      if(filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)){
+         // submit form
+         $userName = $_POST['name'];
+         $userEmail = $_POST['email'];
+         $msgSubject = $_POST['subject'];
+         $msg = $_POST['message'];
+
+         $to = 'axelbrolivas@gmail.com';
+         $body = '';
+
+         $body .= 'From: '.$userName. "\r\n";
+         $body .= 'Email: '.$userEmail. "\r\n";
+         $body .= 'Message: '.$msg. "\r\n";
+
+         mail($to, $msgSubject, $body);
+
+         $msg_sent = true;
+      }
+   } 
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -162,22 +186,7 @@
 
    <section class="s2">
       <div class="main">
-         <h3 style="text-align: center; padding: 1em 0;">Let's Talk!</h3>
-            <form action="webform.php" method="POST" id="contact-form">
-               <label>Name</label>
-               <input type="text" name="name" class="input-field">
-
-               <label>Subject</label>
-               <input type="text" name="subject" class="input-field">
-
-               <label>Email</label>
-               <input type="email" name="email" class="input-field">
-
-               <label>Message</label>
-               <textarea name="msg" class="input-field"></textarea>
-
-               <input type="submit" id="submit" value="Send">
-            </form>
+         <h3 style="text-align: center; padding: 1em 0;">You're All Set</h3>
       </div>
    </section>
    

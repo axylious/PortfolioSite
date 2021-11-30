@@ -203,7 +203,7 @@ h6 {font-size: 1em;}
    background-color: #192734;
    border-color: black;
 }
-#season {background-color: #FF7518;}
+#season {background: linear-gradient(-45deg, #A4B787 0 50%, #AA3A3A 50% 100%);;}
 
 .right {
    grid-area: right-column;

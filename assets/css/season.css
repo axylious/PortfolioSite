@@ -1,27 +1,26 @@
 /* Root Variables */
 :root {
-   --main-color: #222;
-   --secondary-color: #000;
+   --main-color: #A4B787;
+   --secondary-color: #F4F4F4;
 
-   --border-color: #666;
+   --border-color: #c1c1c1;
 
-   --main-txt: #fff;
-   --secondary-txt: #eee;
+   --main-txt: black;
+   --secondary-txt: #222;
 
-   --main-font: 'Creepster', monospace;
+   --main-font: 'Festive', cursive;
 
-   --theme-dot-border: #fff;
+   --theme-dot-border: #222;
 
-   --preview-bg: rgba(68, 68, 68, 0.5);
-   --preview-shadow: #111;
+   --preview-bg: rgba(251, 249, 243, 0.8);
+   --preview-shadow: #f0ead9;
 
-   --link-border: #FF7518;
+   --link-border: #AA3A3A;
    
-   --btn-color: #999999;
+   --btn-color: #AA3A3A;
 }
 
 
-#dark {border-color: var(--theme-dot-border);}
-#blue {border-color: var(--theme-dot-border);}
-#submit {color: black;}
 .social-wrapper a{font-family: var(--main-font);}
+
+.thumbnail p {font-size: 3em;}

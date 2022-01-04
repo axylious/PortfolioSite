@@ -42,7 +42,7 @@ function setTheme(mode, pic){
 
    if(mode == 'season'){
       document.getElementById('theme-style').href = 'assets/css/season.css'
-      document.getElementById('spotify').src = 'assets/images/Spotify_Icon_RGB_Season.png'
+      document.getElementById('spotify').src = 'assets/images/Spotify_Icon_RGB_Black.png'
    }
 
    localStorage.setItem('theme', mode)

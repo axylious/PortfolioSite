@@ -419,6 +419,16 @@ svg {
    background-position: cover;
 }
 
+.demo {
+   color: #81818144;
+   transition: all 150ms ease-in-out; 
+   font-size: 2em;
+   font-weight: 700;
+}
+
+.demo:hover {
+   color: var(--link-border);
+}
 
 .work-skills ul{
    display: flex;

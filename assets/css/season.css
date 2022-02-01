@@ -1,22 +1,24 @@
 /* Root Variables */
 :root {
-   --main-color: #eaeaea;
-   --secondary-color: #fff;
+   --main-color: #fcb0b6;
+   --secondary-color: #ffdccd;
 
-   --border-color: #6868AC;
+   --border-color: #b3023d;
 
    --main-txt: black;
    --secondary-txt: #222;
 
+   --main-font: 'Dancing Script', cursive;
+
    --theme-dot-border: #222;
 
-   --preview-bg: rgba(216, 216, 241, 0.25);
-   --preview-shadow: #b6b6e9;
+   --preview-bg: rgba(224, 101, 138, 0.15);
+   --preview-shadow: #fcb0b6;
 
-   --link-border: #6868AC;
+   --link-border: #b3023d;
    
-   --btn-color: #6868AC;
+   --btn-color: #b3023d;
 }
 
-.nav-wrapper {background-color: var(--link-border);}
+.nav-wrapper {background-color: var(--border-color);}
 .nav-wrapper #nav a {color: var(--secondary-color);}

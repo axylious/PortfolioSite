@@ -21,23 +21,27 @@ function setTheme(mode, pic){
    if(mode == 'light'){
       document.getElementById('theme-style').href = 'assets/css/index.css'
       document.getElementById('spotify').src = 'assets/images/Spotify_Icon_RGB_Black.png'
+      document.getElementById('snapchat').src = 'assets/images/Snapchat_Logo.png'
    }
 
    if(mode == 'blue'){
       document.getElementById('theme-style').href = 'assets/css/blue.css'
       document.getElementById('profile-pic').src = 'assets/images/AxelOlivas.jpg'
       document.getElementById('spotify').src = 'assets/images/Spotify_Icon_RGB_Green.png'
+      document.getElementById('snapchat').src = 'assets/images/Snapchat_Logo_Dark.png'
    }
 
    if(mode == 'retro'){
       document.getElementById('theme-style').href = 'assets/css/retro.css'
       document.getElementById('spotify').src = 'assets/images/Spotify_Icon_RGB_White.png'
+      document.getElementById('snapchat').src = 'assets/images/Snapchat_Logo.png'
    }
 
    if(mode == 'dark'){
       document.getElementById('theme-style').href = 'assets/css/dark.css'
       document.getElementById('profile-pic').src = 'assets/images/Axel-intro.JPEG'
       document.getElementById('spotify').src = 'assets/images/Spotify_Icon_RGB_Green.png'
+      document.getElementById('snapchat').src = 'assets/images/Snapchat_Logo_Dark.png'
    }
 
    if(mode == 'season'){

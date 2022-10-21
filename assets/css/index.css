@@ -409,9 +409,23 @@ svg {
    margin: 1em 3em;
 }
 
-.work-text p{
+.work-snap {
+   padding: 1em 3em;
+}
+
+.work-text p {
    width: 90%;
    margin: 1em 0;
+}
+
+.work-snap p {
+   width: 85%;
+   line-height: 1.75em;
+   margin: 1em auto;
+}
+
+p ol {
+   width: 80%;
 }
 
 .work-pics img {
@@ -436,6 +450,11 @@ svg {
    justify-content: space-between;
    background-color: var(--preview-shadow);
    padding: 1em 2em;
+}
+
+.gist {
+   margin: 0 auto;
+   width: 75%;
 }
 
 /* Design Page */

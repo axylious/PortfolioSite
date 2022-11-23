@@ -112,9 +112,9 @@ h6 {font-size: 1em;}
 
 .small#nav {display: none;}
 
-#nav a{
-   color: var(--main-txt)
-}
+#nav a{color: var(--main-txt)}
+
+#nav a:hover {color: var(--link-border)}
 
 #nav {
    margin: 0;

@@ -278,6 +278,7 @@ h6 {font-size: 1em;}
    background-color: var(--preview-shadow);
    padding: 1em 2em;
    margin-top: .5em;
+   cursor: default;
 }
 
 #skills li:first-child {

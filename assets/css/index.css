@@ -280,6 +280,10 @@ h6 {font-size: 1em;}
    margin-top: .5em;
 }
 
+#skills li:first-child {
+   color: var(--link-border);
+}
+
 .social-wrapper {
    align-self: center;
 }

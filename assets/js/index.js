@@ -20,7 +20,7 @@ for(var i=0; themeDots.length>1; i++){
 function setTheme(mode, pic){
    if(mode == 'light'){
       document.getElementById('theme-style').href = 'assets/css/index.css'
-      document.getElementById('profile-pic').src = 'assets/images/Axel-intro.JPEG'
+      document.getElementById('profile-pic').src = 'assets/images/AxelOlivas.JPEG'
       document.getElementById('spotify').src = 'assets/images/Spotify_Icon_RGB_Black.png'
       document.getElementById('snapchat').src = 'assets/images/Snapchat_Logo.png'
       document.getElementById('f1').src = 'assets/images/F1-logo.png'
@@ -36,6 +36,7 @@ function setTheme(mode, pic){
 
    if(mode == 'retro'){
       document.getElementById('theme-style').href = 'assets/css/retro.css'
+      document.getElementById('profile-pic').src = 'assets/images/Axel-intro.JPEG'
       document.getElementById('spotify').src = 'assets/images/Spotify_Icon_RGB_White.png'
       document.getElementById('snapchat').src = 'assets/images/Snapchat_Logo.png'
       document.getElementById('f1').src = 'assets/images/F1-logo-retro.png'
